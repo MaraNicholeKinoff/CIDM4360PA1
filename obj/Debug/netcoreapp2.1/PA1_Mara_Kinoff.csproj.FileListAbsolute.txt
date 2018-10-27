@@ -1,0 +1,4 @@
+C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\obj\Debug\netcoreapp2.1\PA1_Mara_Kinoff.csprojAssemblyReference.cache
+C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\obj\Debug\netcoreapp2.1\PA1_Mara_Kinoff.csproj.CoreCompileInputs.cache
+C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\obj\Debug\netcoreapp2.1\PA1_Mara_Kinoff.AssemblyInfoInputs.cache
+C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\obj\Debug\netcoreapp2.1\PA1_Mara_Kinoff.AssemblyInfo.cs

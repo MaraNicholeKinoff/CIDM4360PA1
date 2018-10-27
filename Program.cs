@@ -80,20 +80,96 @@ namespace PA1_Mara_Kinoff
 
             string exit = "no";
             while (exit != "yes") {
-                Console.Write("Menu: 1-Add Grad Student, 2-Add Undergrad Student, 3-List All Grad Student, 4-List All Undergrad Students, 5-Exit Menu");
+                Console.WriteLine("\nMenu: \n\t1-Add Grad Student\n\t2-Add Undergrad Student\n\t3-List All Grad Student\n\t4-List All Undergrad Students\n\t5-Exit Menu");
                 string userChoice = Console.ReadLine();
                 switch (userChoice) {
                     case "1":
-                        AddGradStudent();
+                        Console.Write("\nEnter the graduate student's name: ");
+                        string newStudentName = Console.ReadLine();
+                        
+                        Console.Write("\nEnter the graduate student's ID number: ");
+                        long newStudentID = long.Parse(Console.ReadLine());
+
+                        Console.Write("\nEnter the graduate student's date of birth: ");
+                        string newStudentDateofBirth = Console.ReadLine();
+
+                        Console.Write("\nEnter the graduate student's major: ");
+                        string newStudentMajor = Console.ReadLine();
+
+                        Console.Write("\nEnter the graduate student's GPA: ");
+                        float newStudentGPA = float.Parse(Console.ReadLine());
+
+                        Console.Write("\nEnter the graduate student's previous degree: ");
+                        string newStudentPreviousDegree = Console.ReadLine();
+
+                        Console.Write("\nEnter the graduate student's previous university: ");
+                        string newStudentPreviousUniversity = Console.ReadLine();
+
+                        Console.Write("\nEnter the graduate student's undergraduate major: ");
+                        string newStudentUndergradMajor = Console.ReadLine();
+
+                        Console.Write("\nEnter the graduate student's undergraduate GPA: ");
+                        float newStudentUndergradGPA = float.Parse(Console.ReadLine());
+
+                        grads.Add(
+                            new GradStudent () {
+                                StudentName = newStudentName,
+                                StudentID = newStudentID,
+                                DateofBirth = newStudentDateofBirth,
+                                Major = newStudentMajor,
+                                GPA = newStudentGPA,
+                                previousDegree = newStudentPreviousDegree,
+                                previousUniversity = newStudentPreviousUniversity,
+                                undergradMajor = newStudentUndergradMajor,
+                                undergradGPA = newStudentUndergradGPA
+                            }
+                        );
+
                         break;
                     case "2":
-                        AddUndergradStudent();
+                        Console.Write("\nEnter the undergraduate student's name: ");
+                        string newUStudentName = Console.ReadLine();
+                        
+                        Console.Write("\nEnter the undergraduate student's ID number: ");
+                        long newUStudentID = long.Parse(Console.ReadLine());
+
+                        Console.Write("\nEnter the undergraduate student's date of birth: ");
+                        string newUStudentDateofBirth = Console.ReadLine();
+
+                        Console.Write("\nEnter the undergraduate student's major: ");
+                        string newUStudentMajor = Console.ReadLine();
+
+                        Console.Write("\nEnter the undergraduate student's GPA: ");
+                        float newUStudentGPA = float.Parse(Console.ReadLine());
+
+                        Console.Write("\nEnter the undergraduate student's previous high school: ");
+                        string newUStudentPreviousHighSchool = Console.ReadLine();
+
+                        Console.Write("\nEnter the undergraduate student's classification (0 - Freshman, 1 - Sophomore, 2 - Junior, 3 - Senior): ");
+                        int newUStudentClassification = Convert.ToInt32(Console.ReadLine());
+
+                        undergradst.Add(
+                            new UndergradStudent () {
+                                StudentName = newUStudentName,
+                                StudentID = newUStudentID,
+                                DateofBirth = newUStudentDateofBirth,
+                                Major = newUStudentMajor,
+                                GPA = newUStudentGPA,
+                                previousHSchool = newUStudentPreviousHighSchool,
+                                studentClass = (Classification)Convert.ToInt32(newUStudentClassification)
+                            }
+                        );
+
                         break;
                     case "3":
-                        displayStudentInfo();
+                        foreach (GradStudent g in grads) {
+                            Console.WriteLine($"{g.StudentName}: \n\tStudent ID - {g.StudentID}\n\tStudent DOB - {g.DateofBirth}\n\tStudent Major - {g.Major}\n\tStudent GPA - {g.GPA}\n\tPrevious Degree - {g.previousDegree}\n\tPrevious University - {g.previousUniversity}\n\tUndergradMajor - {g.undergradMajor}\n\tUndergrad GPA - {g.undergradGPA}");
+                        }
                         break;
                     case "4":
-                        ListUndergradStudent();
+                        foreach (UndergradStudent u in undergradst) {
+                            Console.WriteLine($"{u.StudentName}: \n\tStudent ID - {u.StudentID}\n\tStudent DOB - {u.DateofBirth}\n\tStudent Major - {u.Major}\n\tStudent GPA - {u.GPA}\n\tPrevious High School - {u.previousHSchool}\n\tClassification - {u.studentClass}");
+                        }
                         break;
                     case "5":
                         exit = "yes";
@@ -102,21 +178,7 @@ namespace PA1_Mara_Kinoff
                         Console.WriteLine("Invalid selection. Try again.");
                         break;
                 }
-            }
-        }
-
-        static void AddGradStudent() {
-
-        }
-        static void AddUndergradStudent() {
-
-        }
-        static void ListGradStudent() {
-
-        }
-        static void ListUndergradStudent() {
-
-        
+            }     
         }
     }
 }

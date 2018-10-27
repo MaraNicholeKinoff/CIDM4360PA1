@@ -21,17 +21,6 @@ namespace Models
             this.previousUniversity = epreviousUniversity;
             this.undergradMajor =eundergradMajor; 
             this.undergradGPA = eundergradGPA;
-        }
-
-        //Methods
-        // void addStudentInfo() {
-
-        // }
-        // void updateStudentInfo() {
-
-        // }
-        // void displayStudentInfo() {
-
-        }        
+        }    
     }
 }

@@ -19,17 +19,6 @@ namespace Models
                 this.previousHSchool = epreviousHSchool;
                 this.studentClass = estudentClass;
             }
-
-            //Methods
-            void addStudentInfo() {
-
-            }
-            void updateStudentInfo() {
-
-            }
-            void displayStudentInfo() {
-
-            }
     }
     public enum Classification {Freshman, Sophomore, Junior, Senior}
 }

@@ -2,3 +2,10 @@ C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\obj\Debug\netcoreapp2.
 C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\obj\Debug\netcoreapp2.1\PA1_Mara_Kinoff.csproj.CoreCompileInputs.cache
 C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\obj\Debug\netcoreapp2.1\PA1_Mara_Kinoff.AssemblyInfoInputs.cache
 C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\obj\Debug\netcoreapp2.1\PA1_Mara_Kinoff.AssemblyInfo.cs
+C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\bin\Debug\netcoreapp2.1\PA1_Mara_Kinoff.deps.json
+C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\bin\Debug\netcoreapp2.1\PA1_Mara_Kinoff.runtimeconfig.json
+C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\bin\Debug\netcoreapp2.1\PA1_Mara_Kinoff.runtimeconfig.dev.json
+C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\bin\Debug\netcoreapp2.1\PA1_Mara_Kinoff.dll
+C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\bin\Debug\netcoreapp2.1\PA1_Mara_Kinoff.pdb
+C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\obj\Debug\netcoreapp2.1\PA1_Mara_Kinoff.dll
+C:\Users\maram\Desktop\Fall2018\CIDM 4360\PA1_Mara_Kinoff\obj\Debug\netcoreapp2.1\PA1_Mara_Kinoff.pdb
